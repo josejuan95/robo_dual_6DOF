@@ -1,0 +1,26 @@
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:51:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kwhile[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+   51 |     [01;35m[Kwhile[m[K (rclcpp::ok())
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:57:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kwhile[m[K’
+   57 |         [01;36m[Kmvprintw[m[K(4, 46,"BRAZO IZQUIERDO");
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:102:13:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+  102 |             [01;31m[Kcontinue[m[K;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K At global scope:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:223:13:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  223 |     endwin()[01;31m[K;[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:224:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  224 |     rclcpp::shutdown()[01;31m[K;[m[K
+      |                       [01;31m[K^[m[K
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:225:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  225 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:226:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  226 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

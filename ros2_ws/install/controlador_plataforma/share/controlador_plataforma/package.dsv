@@ -1,0 +1,8 @@
+source;share/controlador_plataforma/hook/cmake_prefix_path.ps1
+source;share/controlador_plataforma/hook/cmake_prefix_path.dsv
+source;share/controlador_plataforma/hook/cmake_prefix_path.sh
+source;share/controlador_plataforma/local_setup.bash
+source;share/controlador_plataforma/local_setup.dsv
+source;share/controlador_plataforma/local_setup.ps1
+source;share/controlador_plataforma/local_setup.sh
+source;share/controlador_plataforma/local_setup.zsh

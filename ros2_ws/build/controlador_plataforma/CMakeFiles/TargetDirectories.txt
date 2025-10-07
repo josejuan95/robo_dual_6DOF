@@ -1,0 +1,10 @@
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/uninstall.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/controlador_plataforma_uninstall.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/controlador_plataforma_node.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/test.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/edit_cache.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/rebuild_cache.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/list_install_components.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/install.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/install/local.dir
+/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8
+Invoked command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8

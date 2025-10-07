@@ -1,0 +1,14 @@
+[0.012s] Invoking command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[2.596s] [01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.596s] [01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:52:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmvprintw[m[K’
+[2.596s]    52 |         clear()
+[2.596s]       |                [01;31m[K^[m[K
+[2.597s]       |                [32m[K;[m[K
+[2.597s]    53 |         //TÍTULO
+[2.597s]    54 |         [32m[Kmvprintw[m[K(1, 85,"CONTROL DE PLATAFORMA");
+[2.597s]       |         [32m[K~~~~~~~~[m[K
+[3.926s] gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1
+[3.927s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2
+[3.927s] gmake: *** [Makefile:146: all] Error 2
+[3.930s] Invoked command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+ca0f4b3e5488d1c792b5aa3936f3a62e CMakeFiles/controlador_plataforma_uninstall

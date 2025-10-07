@@ -1,0 +1,4 @@
+source;share/controlador_plataforma/local_setup.bash
+source;share/controlador_plataforma/local_setup.dsv
+source;share/controlador_plataforma/local_setup.sh
+source;share/controlador_plataforma/local_setup.zsh

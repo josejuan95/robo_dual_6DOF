@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:158:82:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+  158 |      case '4': al[0]=7;al[1]=-97;al[2]=154;al[3]=-99;al[4]=90;al[5]=90;ar[[01;31m[K0[m[K=-7;ar[1]=97;ar[2]=-154;ar[3]=99;ar[4]=-90;ar[5]=-90;break;
+      |                                                                           [01;31m[K^[m[K
+
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:158:86:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K;[m[K’ token
+  158 |  case '4': al[0]=7;al[1]=-97;al[2]=154;al[3]=-99;al[4]=90;al[5]=90;ar[0=-7[01;31m[K;[m[Kar[1]=97;ar[2]=-154;ar[3]=99;ar[4]=-90;ar[5]=-90;break;
+      |                                                                           [01;31m[K^[m[K
+      |                                                                           [32m[K][m[K
+gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

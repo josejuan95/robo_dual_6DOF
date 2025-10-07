@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:160:116:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  160 | 1]=0;al[2]=0;al[3]=0;al[4]=0;al[5]=0;ar[0]=0;ar[1]=0;ar[2]=0;ar[3]=0;ar[4]=0;[01;35m[Kar[5]=0[m[K;
+      |                                                                              [01;35m[K~~~~~^~[m[K
+
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:162:13:[m[K [01;36m[Knote: [m[Khere
+  162 |             [01;36m[Kcase[m[K KEY_UP: avance++; break;
+      |             [01;36m[K^~~~[m[K
+[100%] [32m[1mLinking CXX executable controlador_plataforma_node[0m
+[100%] Built target controlador_plataforma_node
+-- Install configuration: ""
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node
+-- Set non-toolchain portion of runtime path of "/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node" to ""
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/package_run_dependencies/controlador_plataforma
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/parent_prefix_path/controlador_plataforma
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.sh
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.dsv
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.bash
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.sh
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.zsh
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.dsv
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.dsv
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/packages/controlador_plataforma
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig.cmake
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig-version.cmake
+-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.xml

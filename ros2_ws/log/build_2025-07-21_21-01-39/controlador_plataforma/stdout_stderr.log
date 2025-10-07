@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:1[m[K:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:85:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kwattr_on[m[K’
+   85 |         [01;31m[Kattron[m[K(COLOR_PAIR(5))
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

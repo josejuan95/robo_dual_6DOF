@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:52:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmvprintw[m[K’
+   52 |         clear()
+      |                [01;31m[K^[m[K
+      |                [32m[K;[m[K
+   53 |         //TÍTULO
+   54 |         [32m[Kmvprintw[m[K(1, 85,"CONTROL DE PLATAFORMA");
+      |         [32m[K~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

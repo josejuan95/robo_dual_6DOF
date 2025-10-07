@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable controlador_plataforma_node[0m
+[100%] Built target controlador_plataforma_node
+-- Install configuration: ""
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node
+-- Set non-toolchain portion of runtime path of "/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node" to ""
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/package_run_dependencies/controlador_plataforma
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/parent_prefix_path/controlador_plataforma
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.sh
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.dsv
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.sh
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.dsv
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.bash
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.sh
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.zsh
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.dsv
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.dsv
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/packages/controlador_plataforma
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig.cmake
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig-version.cmake
+-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.xml

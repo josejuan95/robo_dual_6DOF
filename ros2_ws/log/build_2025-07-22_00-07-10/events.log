@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000695] (-) JobUnselected: {'identifier': 'sim_ros2_interface'}
+[0.000760] (controlador_plataforma) JobQueued: {'identifier': 'controlador_plataforma', 'dependencies': OrderedDict()}
+[0.000788] (controlador_plataforma) JobStarted: {'identifier': 'controlador_plataforma'}
+[0.008947] (controlador_plataforma) JobProgress: {'identifier': 'controlador_plataforma', 'progress': 'cmake'}
+[0.009612] (controlador_plataforma) JobProgress: {'identifier': 'controlador_plataforma', 'progress': 'build'}
+[0.010285] (controlador_plataforma) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', '--', '-j8', '-l8'], 'cwd': '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jibacem', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jibacem', 'OLDPWD': '/home/jibacem/MASTER/TFM/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3162', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jibacem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jibacem', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/jibacem/Programas/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/jibacem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/quijotehood:@/tmp/.ICE-unix/3136,unix/quijotehood:/tmp/.ICE-unix/3136', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d566d7_ded7_40fa_ba6f_94528ae1944a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install/sim_ros2_interface:/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install/sim_ros2_interface:/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.080076] (controlador_plataforma) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099701] (-) TimerEvent: {}
+[0.199992] (-) TimerEvent: {}
+[0.300291] (-) TimerEvent: {}
+[0.400576] (-) TimerEvent: {}
+[0.500861] (-) TimerEvent: {}
+[0.601160] (-) TimerEvent: {}
+[0.701441] (-) TimerEvent: {}
+[0.801724] (-) TimerEvent: {}
+[0.902008] (-) TimerEvent: {}
+[1.002304] (-) TimerEvent: {}
+[1.102567] (-) TimerEvent: {}
+[1.202853] (-) TimerEvent: {}
+[1.303154] (-) TimerEvent: {}
+[1.403445] (-) TimerEvent: {}
+[1.503733] (-) TimerEvent: {}
+[1.604003] (-) TimerEvent: {}
+[1.704296] (-) TimerEvent: {}
+[1.804593] (-) TimerEvent: {}
+[1.904887] (-) TimerEvent: {}
+[2.005175] (-) TimerEvent: {}
+[2.105448] (-) TimerEvent: {}
+[2.205737] (-) TimerEvent: {}
+[2.306024] (-) TimerEvent: {}
+[2.406324] (-) TimerEvent: {}
+[2.506611] (-) TimerEvent: {}
+[2.606906] (-) TimerEvent: {}
+[2.655464] (controlador_plataforma) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.655682] (controlador_plataforma) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:158:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Klvalue required as left operand of assignment\n'}
+[2.655777] (controlador_plataforma) StderrLine: {'line': b"  158 |      case '4': al[0]=7;al[1]=-97;al[2]=154;al[3]=-99;al[4]=90;al[5]=90;ar[\x1b[01;31m\x1b[K0\x1b[m\x1b[K=-7;ar[1]=97;ar[2]=-154;ar[3]=99;ar[4]=-90;ar[5]=-90;break;\n"}
+[2.655861] (controlador_plataforma) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.655941] (controlador_plataforma) StderrLine: {'line': b'\n'}
+[2.656019] (controlador_plataforma) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:158:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K]\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.656107] (controlador_plataforma) StderrLine: {'line': b"  158 |  case '4': al[0]=7;al[1]=-97;al[2]=154;al[3]=-99;al[4]=90;al[5]=90;ar[0=-7\x1b[01;31m\x1b[K;\x1b[m\x1b[Kar[1]=97;ar[2]=-154;ar[3]=99;ar[4]=-90;ar[5]=-90;break;\n"}
+[2.656205] (controlador_plataforma) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.656283] (controlador_plataforma) StderrLine: {'line': b'      |                                                                           \x1b[32m\x1b[K]\x1b[m\x1b[K\n'}
+[2.707022] (-) TimerEvent: {}
+[2.807356] (-) TimerEvent: {}
+[2.907650] (-) TimerEvent: {}
+[3.007942] (-) TimerEvent: {}
+[3.108236] (-) TimerEvent: {}
+[3.208523] (-) TimerEvent: {}
+[3.308822] (-) TimerEvent: {}
+[3.409147] (-) TimerEvent: {}
+[3.509441] (-) TimerEvent: {}
+[3.609735] (-) TimerEvent: {}
+[3.710027] (-) TimerEvent: {}
+[3.810362] (-) TimerEvent: {}
+[3.910653] (-) TimerEvent: {}
+[4.010934] (-) TimerEvent: {}
+[4.012974] (controlador_plataforma) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1\n'}
+[4.013410] (controlador_plataforma) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2\n'}
+[4.013787] (controlador_plataforma) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.016381] (controlador_plataforma) CommandEnded: {'returncode': 2}
+[4.028335] (controlador_plataforma) JobEnded: {'identifier': 'controlador_plataforma', 'rc': 2}
+[4.029324] (-) EventReactorShutdown: {}

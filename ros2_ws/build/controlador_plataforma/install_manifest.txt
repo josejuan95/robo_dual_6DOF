@@ -1,0 +1,16 @@
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/package_run_dependencies/controlador_plataforma
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/parent_prefix_path/controlador_plataforma
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.sh
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.dsv
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.sh
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.dsv
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.bash
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.sh
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.zsh
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.dsv
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.dsv
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/packages/controlador_plataforma
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig.cmake
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig-version.cmake
+/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.xml

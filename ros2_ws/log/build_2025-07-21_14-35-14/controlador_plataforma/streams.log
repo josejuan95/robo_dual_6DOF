@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[6.079s] [100%] [32m[1mLinking CXX executable controlador_plataforma_node[0m
+[6.327s] [100%] Built target controlador_plataforma_node
+[6.341s] Invoked command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8
+[6.352s] Invoking command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma
+[6.361s] -- Install configuration: ""
+[6.361s] -- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node
+[6.363s] -- Set non-toolchain portion of runtime path of "/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node" to ""
+[6.363s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/package_run_dependencies/controlador_plataforma
+[6.363s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/parent_prefix_path/controlador_plataforma
+[6.363s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.sh
+[6.363s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.dsv
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.sh
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.dsv
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.bash
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.sh
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.zsh
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.dsv
+[6.364s] -- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.dsv
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/packages/controlador_plataforma
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig.cmake
+[6.364s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig-version.cmake
+[6.365s] -- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.xml
+[6.366s] Invoked command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma

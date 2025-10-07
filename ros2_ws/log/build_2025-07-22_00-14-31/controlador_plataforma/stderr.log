@@ -1,0 +1,8 @@
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:160:116:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+  160 | 1]=0;al[2]=0;al[3]=0;al[4]=0;al[5]=0;ar[0]=0;ar[1]=0;ar[2]=0;ar[3]=0;ar[4]=0;[01;35m[Kar[5]=0[m[K;
+      |                                                                              [01;35m[K~~~~~^~[m[K
+
+[01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:162:13:[m[K [01;36m[Knote: [m[Khere
+  162 |             [01;36m[Kcase[m[K KEY_UP: avance++; break;
+      |             [01;36m[K^~~~[m[K

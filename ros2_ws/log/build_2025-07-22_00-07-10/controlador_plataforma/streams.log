@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o[0m
+[2.655s] [01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.655s] [01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:158:82:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+[2.655s]   158 |      case '4': al[0]=7;al[1]=-97;al[2]=154;al[3]=-99;al[4]=90;al[5]=90;ar[[01;31m[K0[m[K=-7;ar[1]=97;ar[2]=-154;ar[3]=99;ar[4]=-90;ar[5]=-90;break;
+[2.655s]       |                                                                           [01;31m[K^[m[K
+[2.655s] 
+[2.655s] [01m[K/home/jibacem/MASTER/TFM/ros2_ws/src/controlador_plataforma/src/main.cpp:158:86:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K;[m[K’ token
+[2.655s]   158 |  case '4': al[0]=7;al[1]=-97;al[2]=154;al[3]=-99;al[4]=90;al[5]=90;ar[0=-7[01;31m[K;[m[Kar[1]=97;ar[2]=-154;ar[3]=99;ar[4]=-90;ar[5]=-90;break;
+[2.655s]       |                                                                           [01;31m[K^[m[K
+[2.656s]       |                                                                           [32m[K][m[K
+[4.012s] gmake[2]: *** [CMakeFiles/controlador_plataforma_node.dir/build.make:76: CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o] Error 1
+[4.013s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlador_plataforma_node.dir/all] Error 2
+[4.013s] gmake: *** [Makefile:146: all] Error 2
+[4.016s] Invoked command in '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma -- -j8 -l8

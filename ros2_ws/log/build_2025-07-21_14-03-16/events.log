@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000723] (-) JobUnselected: {'identifier': 'sim_ros2_interface'}
+[0.000885] (controlador_plataforma) JobQueued: {'identifier': 'controlador_plataforma', 'dependencies': OrderedDict()}
+[0.000997] (controlador_plataforma) JobStarted: {'identifier': 'controlador_plataforma'}
+[0.009075] (controlador_plataforma) JobProgress: {'identifier': 'controlador_plataforma', 'progress': 'cmake'}
+[0.009870] (controlador_plataforma) JobProgress: {'identifier': 'controlador_plataforma', 'progress': 'build'}
+[0.010796] (controlador_plataforma) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', '--', '-j8', '-l8'], 'cwd': '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jibacem', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jibacem', 'OLDPWD': '/home/jibacem/MASTER/TFM/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3162', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jibacem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jibacem', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/jibacem/Programas/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/jibacem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/quijotehood:@/tmp/.ICE-unix/3136,unix/quijotehood:/tmp/.ICE-unix/3136', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d566d7_ded7_40fa_ba6f_94528ae1944a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install/sim_ros2_interface:/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install/sim_ros2_interface:/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.081358] (controlador_plataforma) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controlador_plataforma_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099762] (-) TimerEvent: {}
+[0.200050] (-) TimerEvent: {}
+[0.300353] (-) TimerEvent: {}
+[0.400634] (-) TimerEvent: {}
+[0.500974] (-) TimerEvent: {}
+[0.601323] (-) TimerEvent: {}
+[0.701675] (-) TimerEvent: {}
+[0.802037] (-) TimerEvent: {}
+[0.902418] (-) TimerEvent: {}
+[1.002772] (-) TimerEvent: {}
+[1.103122] (-) TimerEvent: {}
+[1.203586] (-) TimerEvent: {}
+[1.303877] (-) TimerEvent: {}
+[1.404229] (-) TimerEvent: {}
+[1.504576] (-) TimerEvent: {}
+[1.604862] (-) TimerEvent: {}
+[1.705150] (-) TimerEvent: {}
+[1.805455] (-) TimerEvent: {}
+[1.905804] (-) TimerEvent: {}
+[2.006098] (-) TimerEvent: {}
+[2.106416] (-) TimerEvent: {}
+[2.206708] (-) TimerEvent: {}
+[2.306986] (-) TimerEvent: {}
+[2.407270] (-) TimerEvent: {}
+[2.507552] (-) TimerEvent: {}
+[2.607835] (-) TimerEvent: {}
+[2.708121] (-) TimerEvent: {}
+[2.808419] (-) TimerEvent: {}
+[2.908690] (-) TimerEvent: {}
+[3.008969] (-) TimerEvent: {}
+[3.109272] (-) TimerEvent: {}
+[3.209561] (-) TimerEvent: {}
+[3.309842] (-) TimerEvent: {}
+[3.410121] (-) TimerEvent: {}
+[3.510417] (-) TimerEvent: {}
+[3.610711] (-) TimerEvent: {}
+[3.710999] (-) TimerEvent: {}
+[3.811287] (-) TimerEvent: {}
+[3.911578] (-) TimerEvent: {}
+[4.011876] (-) TimerEvent: {}
+[4.112167] (-) TimerEvent: {}
+[4.212480] (-) TimerEvent: {}
+[4.312771] (-) TimerEvent: {}
+[4.413065] (-) TimerEvent: {}
+[4.513365] (-) TimerEvent: {}
+[4.613652] (-) TimerEvent: {}
+[4.713935] (-) TimerEvent: {}
+[4.814216] (-) TimerEvent: {}
+[4.914494] (-) TimerEvent: {}
+[5.014777] (-) TimerEvent: {}
+[5.115058] (-) TimerEvent: {}
+[5.215359] (-) TimerEvent: {}
+[5.315645] (-) TimerEvent: {}
+[5.415934] (-) TimerEvent: {}
+[5.516256] (-) TimerEvent: {}
+[5.616549] (-) TimerEvent: {}
+[5.716828] (-) TimerEvent: {}
+[5.817108] (-) TimerEvent: {}
+[5.917399] (-) TimerEvent: {}
+[6.017686] (-) TimerEvent: {}
+[6.113524] (controlador_plataforma) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controlador_plataforma_node\x1b[0m\n'}
+[6.117781] (-) TimerEvent: {}
+[6.218048] (-) TimerEvent: {}
+[6.318376] (-) TimerEvent: {}
+[6.365758] (controlador_plataforma) StdoutLine: {'line': b'[100%] Built target controlador_plataforma_node\n'}
+[6.378262] (controlador_plataforma) CommandEnded: {'returncode': 0}
+[6.379085] (controlador_plataforma) JobProgress: {'identifier': 'controlador_plataforma', 'progress': 'install'}
+[6.389378] (controlador_plataforma) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma'], 'cwd': '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jibacem', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jibacem', 'OLDPWD': '/home/jibacem/MASTER/TFM/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3162', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jibacem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jibacem', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/jibacem/Programas/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/jibacem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/quijotehood:@/tmp/.ICE-unix/3136,unix/quijotehood:/tmp/.ICE-unix/3136', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d566d7_ded7_40fa_ba6f_94528ae1944a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install/sim_ros2_interface:/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jibacem/MASTER/TFM/ros2_ws/build/controlador_plataforma', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/jibacem/MASTER/TFM/ros2_ws/install/sim_ros2_interface:/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.398804] (controlador_plataforma) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.399177] (controlador_plataforma) StdoutLine: {'line': b'-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node\n'}
+[6.400948] (controlador_plataforma) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/lib/controlador_plataforma/controlador_plataforma_node" to ""\n'}
+[6.401349] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/package_run_dependencies/controlador_plataforma\n'}
+[6.401646] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/parent_prefix_path/controlador_plataforma\n'}
+[6.401917] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.sh\n'}
+[6.402149] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/ament_prefix_path.dsv\n'}
+[6.402657] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.sh\n'}
+[6.402860] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/environment/path.dsv\n'}
+[6.403030] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.bash\n'}
+[6.403193] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.sh\n'}
+[6.403371] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.zsh\n'}
+[6.403527] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/local_setup.dsv\n'}
+[6.403676] (controlador_plataforma) StdoutLine: {'line': b'-- Installing: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.dsv\n'}
+[6.403833] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/ament_index/resource_index/packages/controlador_plataforma\n'}
+[6.403985] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig.cmake\n'}
+[6.404136] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/cmake/controlador_plataformaConfig-version.cmake\n'}
+[6.404315] (controlador_plataforma) StdoutLine: {'line': b'-- Up-to-date: /home/jibacem/MASTER/TFM/ros2_ws/install/controlador_plataforma/share/controlador_plataforma/package.xml\n'}
+[6.405574] (controlador_plataforma) CommandEnded: {'returncode': 0}
+[6.418580] (-) TimerEvent: {}
+[6.422538] (controlador_plataforma) JobEnded: {'identifier': 'controlador_plataforma', 'rc': 0}
+[6.423342] (-) EventReactorShutdown: {}
